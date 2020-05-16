@@ -26,7 +26,8 @@ public class HelloWorldJavaSwing {
         JFrame.setDefaultLookAndFeelDecorated(true);
                 
         //Create and set up the window.
-        JFrame frame = new JFrame("Hello World! Java Swing");
+        JFrame frame = new JFrame();
+        frame.setTitle("Hi!");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         //Add the ubiquitous "Hello, World!" label.
