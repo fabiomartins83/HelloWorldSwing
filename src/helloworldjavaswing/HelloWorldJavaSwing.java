@@ -39,6 +39,7 @@ public class HelloWorldJavaSwing {
         frame.setSize(300,100);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
+        
     }
 
     public static void main(String[] args) {
